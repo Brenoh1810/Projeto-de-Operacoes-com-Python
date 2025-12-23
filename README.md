@@ -1,7 +1,7 @@
-Projeto de Automação e Conciliação de Operações 🚀
+# Projeto de Automação e Conciliação de Operações 🚀
 Este projeto foi desenvolvido para demonstrar como o uso de Python e Pandas pode transformar processos manuais de auditoria em um fluxo de trabalho automatizado, escalável e livre de erros humanos.
 
-📌 O Problema de Negócio
+# 📌 O Problema de Negócio
 Em muitas operações de vendas ou atendimento, a conferência de dados é feita de forma manual ou via planilhas de Excel complexas. Isso gera:
 
 Risco Financeiro: Erros de cálculo que passam despercebidos.
@@ -48,3 +48,4 @@ Redução de Tempo: O que levaria 30 minutos por dia manualmente é feito em men
 Confiabilidade: 100% das linhas são auditadas matematicamente, eliminando o erro humano na conferência financeira.
 
 Desenvolvido por Breno Henrique Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/breno-henrique-barbosa-correia/)
+
