@@ -4,48 +4,49 @@ Este projeto foi desenvolvido para demonstrar como o uso de Python e Pandas pode
 # 📌 O Problema de Negócio
 Em muitas operações de vendas ou atendimento, a conferência de dados é feita de forma manual ou via planilhas de Excel complexas. Isso gera:
 
-Risco Financeiro: Erros de cálculo que passam despercebidos.
+*Risco Financeiro*: Erros de cálculo que passam despercebidos.
 
-Inconsistência: Dados duplicados ou formatos de data inconsistentes que sujam os relatórios.
+*Inconsistência*: Dados duplicados ou formatos de data inconsistentes que sujam os relatórios.
 
-Perda de Produtividade: Horas gastas por analistas em tarefas repetitivas de "limpeza".
+*Perda de Produtividade*: Horas gastas por analistas em tarefas repetitivas de "limpeza".
 
-✅ A Solução
+## ✅ A Solução
 Este script automatiza o ciclo completo de tratamento de dados de um arquivo de vendas (CSV), realizando:
 
-Sanitização de Dados: Remoção de duplicatas e tratamento de valores nulos (NaN).
+*Sanitização de Dados*: Remoção de duplicatas e tratamento de valores nulos (NaN).
 
-Padronização: Conversão automática de formatos de data para garantir a integridade temporal.
+*Padronização*: Conversão automática de formatos de data para garantir a integridade temporal.
 
-Auditoria de Conciliação: Verificação lógica entre a Quantidade * Preço Unitário vs o Total Informado pelo sistema, gerando alertas imediatos em caso de divergência.
+*Auditoria de Conciliação*: Verificação lógica entre a Quantidade * Preço Unitário vs o Total Informado pelo sistema, gerando alertas imediatos em caso de divergência.
 
-Relatório Executivo: Consolidação de métricas chave (KPIs) como Ticket Médio e Volume Total para rápida visualização.
+*Relatório Executivo*: Consolidação de métricas chave (KPIs) como Ticket Médio e Volume Total para rápida visualização.
 
-🛠️ Tecnologias Utilizadas
-Python 3.x
+## 🛠️ Tecnologias Utilizadas
+*Python 3.x*
 
-Pandas: Para manipulação e análise de dados de alta performance.
+*Pandas*: Para manipulação e análise de dados de alta performance.
 
-Numpy: Para suporte a operações matemáticas e tratamento de valores nulos.
+*Numpy*: Para suporte a operações matemáticas e tratamento de valores nulos.
 
-Google Colab: Ambiente de desenvolvimento em nuvem.
+*Google Colab*: Ambiente de desenvolvimento em nuvem.
 
-📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 analise_operacoes.ipynb: Notebook com o código documentado.
 
 vendas_bruto.csv: Exemplo de base de dados com erros propositais (duplicatas, erros de cálculo e datas mal formatadas) para teste do script.
 
-🚀 Como Executar
+## 🚀 Como Executar
 Clone este repositório ou baixe o arquivo .ipynb.
 
 Abra no Google Colab.
 
 Execute as células para ver a mágica acontecer: o script irá gerar o arquivo de teste, processá-lo e imprimir os alertas de erro de conciliação no console.
 
-📈 Impacto Operacional
-Redução de Tempo: O que levaria 30 minutos por dia manualmente é feito em menos de 2 segundos.
+## 📈 Impacto Operacional
+*Redução de Tempo*: O que levaria 30 minutos por dia manualmente é feito em menos de 2 segundos.
 
-Confiabilidade: 100% das linhas são auditadas matematicamente, eliminando o erro humano na conferência financeira.
+*Confiabilidade*: 100% das linhas são auditadas matematicamente, eliminando o erro humano na conferência financeira.
 
-Desenvolvido por Breno Henrique Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/breno-henrique-barbosa-correia/)
+*Desenvolvido por Breno Henrique Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/breno-henrique-barbosa-correia/)*
+
 
